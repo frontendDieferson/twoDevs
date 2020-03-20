@@ -15,7 +15,7 @@ Você pode encontrar a versão mais recente deste guia [aqui] (https://github.co
 
 #### Executando o aplicativo
 ```
-# cd the-route-of-your-project
+# cd twoDevs
 # npm install
 # npm start
 ```
