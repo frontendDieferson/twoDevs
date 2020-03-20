@@ -48,7 +48,7 @@ class App extends Component {
              <Navbar expand="md">
               <NavbarCollapse>
                 <NavbarBrand>
-
+                  twoDevs
                 </NavbarBrand>
                 <NavbarNav alignItems="right">
                   <NavbarLink>
@@ -62,7 +62,7 @@ class App extends Component {
         </Row>
         <Row className="mt-5">
           <Column>
-            <center><Header type="h5">O que é a Sigma?</Header></center>
+            <center><Header type="h5">O que é a twoDevs?</Header></center>
             <Hero
               backgroundColor="#212529"
               particlesParams={particles}
@@ -122,7 +122,7 @@ class App extends Component {
             <Footer>
               <Row>
                 <Column className="col-sm-12 col-md">
-                  <Copyright showAllRightText={false} text="Sigmamov" />
+                  <Copyright showAllRightText={false} text="twoDevs" />
                 </Column>
 
 

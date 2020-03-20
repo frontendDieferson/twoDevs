@@ -1,7 +1,7 @@
 {
-	"name": "landing-page-create-react-app",
+	"name": "landing page twoDevs",
 	"version": "1.0.0",
-	"homepage": "https://landing-page-cra.front10.cloud",
+	"homepage": "https://twodevs.io",
 	"dependencies": {
 		"@front10/landing-page-book": "^0.1.16",
 		"react": "^16.5.1",
@@ -14,7 +14,7 @@
 		"test": "react-scripts test --env=jsdom",
 		"eject": "react-scripts eject",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build -b gh-pages -r git@github.com:front10/landing-page-create-react-app.git",
+		"deploy": "gh-pages -d build -b gh-pages -r git@github.com:frontendDieferson/twoDevs.git",
 		"now-build": "npm run build"
 	},
 	"devDependencies": {
