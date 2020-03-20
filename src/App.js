@@ -83,7 +83,7 @@ class App extends Component {
                 <div className="mt-5">
                   <Link
                     className="btn btn-primary btn-started"
-                    href="https://front10.com/landing-page-book"
+                    href="#"
                     target="_blank"
                   >
                     Nossos Projetos
