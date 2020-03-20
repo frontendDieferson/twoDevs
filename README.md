@@ -22,11 +22,8 @@ Você pode encontrar a versão mais recente deste guia [aqui] (https://github.co
 
 ### Executando no navegador
 
-OAbra no seu navegador o endereço http://127.0.0.1:3000
+Abra no seu navegador o endereço http://127.0.0.1:3000
 
-# Demo
-
-![Screenshot of the demo](https://raw.githubusercontent.com/front10/landing-page-create-react-app/master/capture.png)
 
 
 
