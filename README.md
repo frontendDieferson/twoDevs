@@ -5,22 +5,22 @@ Este projeto foi iniciado com o [Create React App] (https://github.com/facebooki
 Abaixo, você encontrará informações sobre como executar tarefas comuns. <br>
 Você pode encontrar a versão mais recente deste guia [aqui] (https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
-# Steps to follow
+# Passos a seguir
 
 
-#### Downloading the source code
+#### Fazendo o download do código fonte
 ```
 # git clone https://github.com/frontendDieferson/twoDevs.git
 ```
 
-#### Running the App
+#### Executando o aplicativo
 ```
 # cd the-route-of-your-project
 # npm install
 # npm start
 ```
 
-### Running in the browser
+### Executando no navegador
 
 OAbra no seu navegador o endereço http://127.0.0.1:3000
 
