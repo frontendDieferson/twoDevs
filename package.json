@@ -1,5 +1,10 @@
 
 {
+	"engines": {
+		"node": "12.16.1",
+		 }
+}
+{
 	"name": "landing page twoDevs",
 	"version": "1.0.0",
 	"homepage": "https://twodevs.io",
@@ -8,9 +13,7 @@
 		"react": "^16.5.1",
 		"react-dom": "^16.5.1",
 		"react-scripts": "1.1.5",
-		"engines": {
-	    "node": "12.16.1",
-       }
+
 },
 
 	"scripts": {
