@@ -1,0 +1,34 @@
+[
+  {
+    "image": "images/team/ninja.svg",
+    "job": "O Menino do Código",
+    "name": "Dieferson",
+    "profile": [
+      {
+        "social": "facebook",
+        "url": "#"
+      },
+      {
+        "social": "twitter",
+        "url": "#"
+      }
+    ],
+    "summary": "Dieferson, mais conhecido como o menino do código, apaixonado por Front End. Sempre codando para melhorar os códigos dos projetos da Sigma."
+  },
+  {
+    "image": "images/team/astronaut.svg",
+    "job": "A mente brilhante por trás dos projetos",
+    "name": "Marcio",
+    "profile": [
+      {
+        "social": "facebook",
+        "url": "#"
+      },
+      {
+        "social": "twitter",
+        "url": "#"
+      }
+    ],
+    "summary": "Marcio o menino por trás das ideias, Algoritmos e sempre pensando nas soluções antecipadas."
+  }
+]

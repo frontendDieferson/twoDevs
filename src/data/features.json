@@ -1,0 +1,30 @@
+[
+  {
+    "image": "images/features/components.png",
+    "title": "+40 Components",
+    "subtitle": "Variedade de componentes",
+    "summary": "Você tem 44 componentes disponíveis para criar sua página de destino.",
+    "link": "2"
+  },
+  {
+    "image": "images/features/rocket.png",
+    "title": "Simples",
+    "subtitle": "Fácil de usar",
+    "summary": "Você pode fazer muito em seu aplicativo da web com pouco código e muito rápido.",
+    "link": "1"
+  },
+  {
+    "image": "images/features/themes.png",
+    "title": "Temas",
+    "subtitle": "Temas fáceis de criar",
+    "summary": "Customização de bibliotecas com variáveis CSS para facilitar a troca de temas e componentes.",
+    "link": "3"
+  },
+  {
+    "image": "images/features/testing.png",
+    "title": "Teste",
+    "subtitle": "Componentes robustos",
+    "summary": "Todos os nossos componentes são testados, como um relógio suíço. Com cobertura de código acima de 70%",
+    "link": "4"
+  }
+]
