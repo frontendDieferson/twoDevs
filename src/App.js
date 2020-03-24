@@ -129,6 +129,7 @@ class App extends Component {
               members={team}
               socials={["linkedin", "twitter"]}
             />
+
           </Column>
         </Row>
 
