@@ -44,17 +44,33 @@ class App extends Component {
       <Container>
 
         <Row className="mt-5">
+
           <Column>
              <Navbar expand="md">
               <NavbarCollapse>
                 <NavbarBrand>
                   twoDevs
                 </NavbarBrand>
+
                 <NavbarNav alignItems="right">
+                <NavbarLink>Showcase</NavbarLink>
+                  <NavbarLink>Política e Privacidade</NavbarLink>
+                  <NavbarLink>Blog</NavbarLink>
+                  <NavbarLink>Login</NavbarLink>
                   <NavbarLink>
                     <Icon icon="fa fa-search" />
                   </NavbarLink>
-
+                  <LanguageSwitcher
+    showLabel placeholder="Select language..."
+    languages={['BR', 'FR', 'ES', 'DE', 'US']}
+    customLabels={{
+        BR: 'Brasil',
+        US: 'English',
+        FR: 'Français',
+        ES: 'Español',
+        DE: 'Deutsch'
+    }}
+/>
                 </NavbarNav>
               </NavbarCollapse>
             </Navbar>
@@ -88,7 +104,7 @@ class App extends Component {
                   >
                     Nossos Projetos
                   </Link>
-                  <GithubButton btnText="Curtidas" btnType="star" />
+
                 </div>
               </Container>
             </Hero>
