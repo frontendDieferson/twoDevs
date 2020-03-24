@@ -1,3 +1,13 @@
+var express = require('express');
+var app = express();
+
+//... your code here ...
+
+var port = process.env.PORT || 3000;
+app.listen(port, function () {
+    console.log('Umbler listening on port %s', port);
+});
+
 {
 	"name": "landing-page-create-react-app",
 	"version": "1.0.0",
@@ -38,4 +48,3 @@
     "express": "^4.15.2",
     "os": "^0.1.1"
   }
-}
