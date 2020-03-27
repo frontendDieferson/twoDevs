@@ -78,13 +78,8 @@ class App extends Component {
         </Row>
         <Row className="mt-5">
           <Column>
-            <center><Header type="h5">O que é a twoDevs?</Header></center>
-            <Hero
-              backgroundColor="#212529"
-              particlesParams={particles}
-              minHeight="50vh"
-            >
-              <Container>
+
+              <center><Container>
                 <Image
                   alt="Front10 logo"
                   className="main-logo"
@@ -106,8 +101,8 @@ class App extends Component {
                   </Link>
 
                 </div>
-              </Container>
-            </Hero>
+              </Container></center>
+
           </Column>
         </Row>
         <Row className="mt-5">

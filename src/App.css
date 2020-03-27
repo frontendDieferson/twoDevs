@@ -29,7 +29,7 @@ body {
 
 .Hero__SubHeader,
 .Hero__Header {
-    color: #fed136 !important;
+    color: #908f8e !important;
 }
 
 .Card__Summary {
@@ -53,7 +53,7 @@ body {
 
 .main-subheader {
     font-size: 1.8rem;
-    color: rgb(246, 204, 32);
+    color: #908f8e;
 }
 
 .gif-toolbar {
