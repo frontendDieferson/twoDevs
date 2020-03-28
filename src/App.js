@@ -46,48 +46,38 @@ class App extends Component {
         <Row className="mt-5">
 
           <Column>
-             <Navbar expand="md">
-              <NavbarCollapse>
-                <NavbarBrand>
-                  twoDevs
-                </NavbarBrand>
-
-                <NavbarNav alignItems="right">
-                <NavbarLink>Showcase</NavbarLink>
-                  <NavbarLink>Política e Privacidade</NavbarLink>
+          <Navbar expand="lg">
+      <Container>
+          <NavbarCollapse>
+              <NavbarBrand>
+                  <Image 
+                      width="120"
+                      src="logo_twoDevs.png"
+                      alt="twoDevs Startup logo"
+                  />
+              </NavbarBrand>
+              <NavbarNav alignItems="right">
+                  <NavbarLink>Home</NavbarLink>
+                  <NavbarLink>ShowCase</NavbarLink>
                   <NavbarLink>Blog</NavbarLink>
-                  <NavbarLink>Login</NavbarLink>
-                  <NavbarLink>
-                    <Icon icon="fa fa-search" />
-                  </NavbarLink>
-                  <LanguageSwitcher
-    showLabel placeholder="Select language..."
-    languages={['BR', 'FR', 'ES', 'DE', 'US']}
-    customLabels={{
-        BR: 'Brasil',
-        US: 'English',
-        FR: 'Français',
-        ES: 'Español',
-        DE: 'Deutsch'
-    }}
-/>
-                </NavbarNav>
-              </NavbarCollapse>
-            </Navbar>
+                  <NavbarLink>Contato</NavbarLink>
+            
+            </NavbarNav>
+
+                  
+              
+          </NavbarCollapse>
+      </Container>
+  </Navbar>
+                          
           </Column>
         </Row>
         <Row className="mt-5">
           <Column>
 
               <center><Container>
-                <Image
-                  alt="Front10 logo"
-                  className="main-logo"
-                  rounded
-                  src="images/logo/front10.png"
-                  width="80"
-                />
-                <Header className="text-warning">Somos uma Startup de duas pessoas apaixonadas por Tecnologia</Header>
+                
+                <Header className="text-warning">Somos uma Startup de duas pessoas apaixonadas por Tecnologia.</Header>
                 <Header className="text-warning" type="h5">
                   E Apaixonados por solucionar problemas
                 </Header>
