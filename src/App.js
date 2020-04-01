@@ -83,8 +83,7 @@ class App extends Component {
               <Container>
                 
                 <Header className="text-warning">Somos uma Startup de duas pessoas apaixonadas por Tecnologia.</Header>
-                <Header className="text-warning" type="h5">
-                  E Apaixonados por solucionar problemas
+                <Header className="text-warning" type="h5">E Apaixonados por solucionar problemas.
                   <div className="mt-5">
                   <Link className="btn btn-primary btn-started" href="#" target="_blank"> Nossos Projetos</Link>
                 </div>
@@ -139,8 +138,9 @@ class App extends Component {
               <Row>
                 <Column className="col-sm-12 col-md">
                   <Copyright showAllRightText={false} text="Startup twoDevs" />
-                  <Social margin="2" type="twitter" url="#" />
-                  <Social margin="2" type="facebook" url="#" />
+                  <Image href="#" target="_blank" src="/images/instagram.png" width="30" height="30"  alt="twoDevs startup Instagram" />
+                  <Image href="#" target="_blank" src="/images/facebook.png" width="30" height="30"  alt="twoDevs startup Facebook" />
+                  <Image href="#" target="_blank" src="/images/twitter.png" width="30" height="30"  alt="twoDevs startup Twitter" />
                   
                 </Column>
 
