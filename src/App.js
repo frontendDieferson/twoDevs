@@ -43,19 +43,21 @@ class App extends Component {
     return (
       <Container>
 
-        <Row className="mt-5">
+        <Row className="mt-8">
 
           <Column>
-          <Navbar expand="lg">
+          <Navbar expand="navbar navbar-expand-lg navbar-light" style="background-color: #246B73;">
       <Container>
           <NavbarCollapse>
               <NavbarBrand>
                   <Image 
                       width="120"
-                      src="logo_twoDevs.png"
+                      height="30"
+                      src="/images/twoDevslogo.png"
                       alt="twoDevs Startup logo"
                   />
               </NavbarBrand>
+              
               <NavbarNav alignItems="right">
                   <NavbarLink>Home</NavbarLink>
                   <NavbarLink>ShowCase</NavbarLink>
@@ -63,7 +65,10 @@ class App extends Component {
                   <NavbarLink>Contato</NavbarLink>
             
             </NavbarNav>
-
+            <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar"></input>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+    </form>
                   
               
           </NavbarCollapse>
@@ -75,23 +80,32 @@ class App extends Component {
         <Row className="mt-5">
           <Column>
 
-              <center><Container>
+              <Container>
                 
                 <Header className="text-warning">Somos uma Startup de duas pessoas apaixonadas por Tecnologia.</Header>
                 <Header className="text-warning" type="h5">
                   E Apaixonados por solucionar problemas
-                </Header>
-                <div className="mt-5">
-                  <Link
-                    className="btn btn-primary btn-started"
-                    href="#"
-                    target="_blank"
-                  >
-                    Nossos Projetos
-                  </Link>
-
+                  <div className="mt-5">
+                  <Link className="btn btn-primary btn-started" href="#" target="_blank"> Nossos Projetos</Link>
                 </div>
-              </Container></center>
+                
+                </Header>
+                
+              
+                  
+                
+                
+              </Container>
+              <container>
+                <Header className="dev">
+                  <Image 
+                      width=""
+                      height=""
+                      src="/images/dev.png"
+                      alt="twoDevs startup logo"
+                  />
+                  </Header>
+                </container>
 
           </Column>
         </Row>
@@ -112,7 +126,7 @@ class App extends Component {
             <Team
               showBorder={false}
               members={team}
-              socials={["linkedin", "twitter"]}
+              socials={["facebook", "twitter"]}
             />
 
           </Column>
@@ -124,7 +138,10 @@ class App extends Component {
             <Footer>
               <Row>
                 <Column className="col-sm-12 col-md">
-                  <Copyright showAllRightText={false} text="twoDevs" />
+                  <Copyright showAllRightText={false} text="Startup twoDevs" />
+                  <Social margin="2" type="twitter" url="#" />
+                  <Social margin="2" type="facebook" url="#" />
+                  
                 </Column>
 
 

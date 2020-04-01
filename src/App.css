@@ -120,6 +120,14 @@ body {
     .main-header {
         font-size: 2rem;
     }
+    .text-warning {
+        max-width: 405px;
+        font-size: auto;
+    }
+    .dev{
+        display: none;
+        
+    }
     .main-subheader {
         font-size: 1.2rem;
     }
@@ -156,4 +164,20 @@ body {
 
 .theme-code .ReactCodeMirror .CodeMirror {
     height: 236px !important;
+}
+.navbar{
+    background-color: #5C257F;
+}
+.text-warning {
+    float: left;
+    width: 600px;
+}
+
+.dev{
+    float: right;
+    margin-top: -300px;
+}
+
+.Footer {
+    background-color: #5C257F;
 }
