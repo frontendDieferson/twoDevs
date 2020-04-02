@@ -6,6 +6,8 @@ import "@front10/landing-page-book/dist/themes/default/index.legacy_browsers.css
 
 import "./App.css";
 
+
+
 import React, { Component } from "react";
 
 import {
@@ -39,7 +41,7 @@ import team from "./data/team.json";
 import browsers from "./data/browsers.json";
 
 
-class App extends Component {
+class contato extends Component {
   render() {
     return (
       <Container>
@@ -51,7 +53,7 @@ class App extends Component {
       <Container>
           <NavbarCollapse>
               <NavbarBrand href="/">
-                  <Image
+                  <Image 
                       width="120"
                       height="30"
                       src="/images/twoDevslogo.png"
@@ -78,62 +80,7 @@ class App extends Component {
                           
           </Column>
         </Row>
-        <Row className="mt-5">
-          <Column>
-
-              <Container>
-                
-                <Header className="text-warning">Somos uma Startup de duas pessoas apaixonadas por Tecnologia.</Header>
-                <Header className="text-warning" type="h5">E Apaixonados por solucionar problemas.
-                  <div className="mt-5">
-                  <Link className="btn btn-primary btn-started" href="showcase"> Nossos Projetos</Link>
-                </div>
-                
-                </Header>
-                
-              
-                  
-                
-                
-              </Container>
-              <container>
-                <Header className="dev">
-                  <Image 
-                      width=""
-                      height=""
-                      src="/images/dev.png"
-                      alt="twoDevs startup logo"
-                  />
-                  </Header>
-                </container>
-
-          </Column>
-        </Row>
-        <Row className="mt-5">
-          <Column>
-            <Header type="h5">Nossos Recursos</Header>
-            <Features
-              features={features}
-              imageCircle={false}
-              showBorder={false}
-              showSubtitle={true}
-            />
-          </Column>
-        </Row>
-        <Row className="mt-5">
-          <Column>
-            <center><Header type="h5"> Os Nerds por trás do Terminal</Header></center>
-            <Team
-              showBorder={false}
-              members={team}
-              socials={["facebook", "twitter"]}
-            />
-
-          </Column>
-        </Row>
-
-        <Row className="mt-5">
-          <Column>
+        
 
             <Footer>
               <Row>
@@ -148,12 +95,12 @@ class App extends Component {
 
               </Row>
             </Footer>
-          </Column>
-        </Row>
+        
+       
 
       </Container>
     );
   }
 }
 
-export default App;
+export default contato;
