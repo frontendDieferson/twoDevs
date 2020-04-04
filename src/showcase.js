@@ -80,7 +80,43 @@ class showcase extends Component {
                           
           </Column>
         </Row>
-        
+        <div class="card-deck mt-5">
+  <div class="card">
+    <img class="card-img-top" src="/images/projeto 1.jpg" width="100" height="200" alt="Imagem de capa do card"></img>
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+      <Link className="btn btn-primary btn-started" href="#" target="_blank"> Visitar projeto</Link>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="/images/projeto 2.jpg" width="100" height="200" alt="Imagem de capa do card"></img>
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+      <Link className="btn btn-primary btn-started" href="#" target="_blank"> Visitar projeto</Link>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="/images/projeto 3.jpg" width="100" height="200" alt="Imagem de capa do card"></img>
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+      <Link className="btn btn-primary btn-started" href="#" target="_blank"> Visitar projeto</Link>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="/images/projeto 4.jpg" width="100" height="200" alt="Imagem de capa do card"></img>
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+      <Link className="btn btn-primary btn-started" href="#" target="_blank"> Visitar projeto</Link>
+    </div>
+  </div>
+  
+  </div>
+  
+
 
             <Footer>
               <Row>

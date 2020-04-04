@@ -81,7 +81,52 @@ class contato extends Component {
           </Column>
         </Row>
         
-
+        <form>
+  <div class="form-row mt-5">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email"></input>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Nome Completo</label>
+      <input type="text" class="form-control" id="inputPassword4" placeholder="Nome Completo"></input>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Endereço</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Rua ou Avenida, nº 0"></input>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Endereço 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc."></input>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">Cidade</label>
+      <input type="text" class="form-control" id="inputCity"></input>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputEstado">Estado</label>
+      <select id="inputEstado" class="form-control">
+        <option selected>Escolher...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputCEP">CEP</label>
+      <input type="text" class="form-control" id="inputCEP"></input>
+    </div>
+  </div>
+  <center><div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck"></input>
+      <label class="form-check-label" for="gridCheck">
+       Aceito os termos de privacidade
+      </label>
+    </div>
+  </div></center>
+  <center><button type="submit" class="btn btn-primary">Enviar</button></center>
+</form>
             <Footer>
               <Row>
                 <Column className="col-sm-12 col-md">

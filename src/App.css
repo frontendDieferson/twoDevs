@@ -153,6 +153,15 @@ body {
     }
 }
 
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+
 .CodeMirror-scroll {
     overflow: scroll !important;
     overflow-y: hidden !important;
@@ -180,4 +189,24 @@ body {
 
 .Footer {
     background-color: #5C257F;
+    margin-top: 20px;
+}
+
+.welcome{
+    margin-top: 150px;
+}
+.welcome h1{
+    margin-top: 2px;
+    color: #5C257F;
+    
+}
+.welcome h5 {
+    margin-top: 5px;
+    color: #5C257F;
+
+}
+.welcome p {
+    font-size: 12px;
+    color: #5C257F;
+    margin-top: 20px;
 }

@@ -5,13 +5,15 @@ import registerServiceWorker from './registerServiceWorker';
 import showcase from './showcase';
 import blog from './blog';
 import contato from './contato';
+import welcome from './welcome';
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
 
 
 ReactDOM.render(
     <BrowserRouter>
     <Switch>
-            <Route path="/" exact={true} component={App} />
+            <Route path="/" exact={true} component={welcome} />
+            <Route path="/app" component={App} />
             <Route path="/showcase" component={showcase} />
             <Route path="/blog" component={blog} />
             <Route path="/contato" component={contato} />
