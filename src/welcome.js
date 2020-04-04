@@ -44,7 +44,13 @@ import browsers from "./data/browsers.json";
 class welcome extends Component {
   render() {
     return (
+        
+           
         <div class="welcome">
+          <div>
+            <header class="border"></header>
+          </div>
+         <div class="box">
         <container class="text-center">
         <Header><img src="/images/welcome.png" width="200" height="250" alt="twoDevs Startup logo"></img>
         <h1>twoDevs Startup</h1>
@@ -52,8 +58,8 @@ class welcome extends Component {
         <h5>E Apaixonados por solucionar problemas.</h5>
 
         <p>&copy; 2020</p></Header>
-               
-      </container>
+        
+      </container></div>
       </div>
     );
   }

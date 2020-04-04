@@ -193,8 +193,9 @@ body {
 }
 
 .welcome{
-    margin-top: 150px;
+    margin-top: 0px;
 }
+
 .welcome h1{
     margin-top: 2px;
     color: #5C257F;
@@ -209,4 +210,15 @@ body {
     font-size: 12px;
     color: #5C257F;
     margin-top: 20px;
+}
+
+
+.border{
+
+    height: 10px;
+    margin-bottom: 20px;
+    background-color: #7c5ac2;
+}
+.box {
+    margin-top: 150px;
 }
