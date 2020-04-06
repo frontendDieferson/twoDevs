@@ -57,10 +57,24 @@ class welcome extends Component {
         <h5>Somos uma Startup de duas pessoas apaixonadas por Tecnologia.</h5>
         <h5>E Apaixonados por solucionar problemas.</h5>
 
-        <p>&copy; 2020</p></Header>
         
-      </container></div>
-      </div>
+        
+        <p>Acompanhe as novidades da Startup twoDevs no Instagram.</p>
+        <a href="https://www.instagram.com/twodevsstartup/">
+         <img alt="Qries" src="/images/instagram.png"
+         width="30" height="30"></img>
+      </a>
+        
+                  
+                  
+                  <p>&copy; 2020</p>
+        </Header>
+        
+      </container>
+    </div>
+
+      
+  </div>
     );
   }
 }
