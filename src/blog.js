@@ -85,10 +85,15 @@ class blog extends Component {
             <Footer>
               <Row>
                 <Column className="col-sm-12 col-md">
-                  <Copyright showAllRightText={false} text="Startup twoDevs" />
-                  <Image href="#" target="_blank" src="/images/instagram.png" width="30" height="30"  alt="twoDevs startup Instagram" />
-                  <Image href="#" target="_blank" src="/images/facebook.png" width="30" height="30"  alt="twoDevs startup Facebook" />
-                  <Image href="#" target="_blank" src="/images/twitter.png" width="30" height="30"  alt="twoDevs startup Twitter" />
+                <Copyright showAllRightText={false} text="Startup twoDevs" />
+                  <a href="https://www.instagram.com/twodevsstartup/"><img alt="Instagram twoDevs Startup" 
+                  src="/images/instagram.png" width="30" height="30"></img></a>
+                  
+                  <a href="https://www.facebook.com/twodevsstartup/"><img alt="Facebook twoDevs Startup" 
+                  src="/images/facebook.png" width="30" height="30"></img></a>
+                  
+                  <a href="https://www.twitter.com/twodevsstartup/"><img alt="Twitter twoDevs Startup" 
+                  src="/images/twitter.png" width="30" height="30"></img></a>
                   
                 </Column>
 

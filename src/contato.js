@@ -96,10 +96,7 @@ class contato extends Component {
     <label for="inputAddress">Endereço</label>
     <input type="text" class="form-control" id="inputAddress" placeholder="Rua ou Avenida, nº 0"></input>
   </div>
-  <div class="form-group">
-    <label for="inputAddress2">Endereço 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc."></input>
-  </div>
+  
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputCity">Cidade</label>
@@ -117,6 +114,10 @@ class contato extends Component {
       <input type="text" class="form-control" id="inputCEP"></input>
     </div>
   </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Sua Mensagem:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
   <center><div class="form-group">
     <div class="form-check">
       <input class="form-check-input" type="checkbox" id="gridCheck"></input>
@@ -131,9 +132,14 @@ class contato extends Component {
               <Row>
                 <Column className="col-sm-12 col-md">
                   <Copyright showAllRightText={false} text="Startup twoDevs" />
-                  <Image href="#" target="_blank" src="/images/instagram.png" width="30" height="30"  alt="twoDevs startup Instagram" />
-                  <Image href="#" target="_blank" src="/images/facebook.png" width="30" height="30"  alt="twoDevs startup Facebook" />
-                  <Image href="#" target="_blank" src="/images/twitter.png" width="30" height="30"  alt="twoDevs startup Twitter" />
+                  <a href="https://www.instagram.com/twodevsstartup/"><img alt="Instagram twoDevs Startup" 
+                  src="/images/instagram.png" width="30" height="30"></img></a>
+                  
+                  <a href="https://www.facebook.com/twodevsstartup/"><img alt="Facebook twoDevs Startup" 
+                  src="/images/facebook.png" width="30" height="30"></img></a>
+                  
+                  <a href="https://www.twitter.com/twodevsstartup/"><img alt="Twitter twoDevs Startup" 
+                  src="/images/twitter.png" width="30" height="30"></img></a>
                   
                 </Column>
 

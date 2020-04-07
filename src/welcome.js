@@ -60,8 +60,8 @@ class welcome extends Component {
         
         
         <p>Acompanhe as novidades da Startup twoDevs no Instagram.</p>
-        <a href="https://www.instagram.com/twodevsstartup/">
-         <img alt="Qries" src="/images/instagram.png"
+        <a href="https://www.instagram.com/twodevsstartup/" target="_blank">
+         <img alt="Instagram twoDevs Startup" src="/images/instagram.png"
          width="30" height="30"></img>
       </a>
         
