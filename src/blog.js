@@ -62,8 +62,8 @@ class blog extends Component {
               </NavbarBrand>
               
               <NavbarNav alignItems="right">
-                  <NavbarLink href="/">Home</NavbarLink>
-                  <NavbarLink href="showcase">ShowCase</NavbarLink>
+              <NavbarLink tag={Link} to="/">Home</NavbarLink>
+              <NavbarLink href="showcase">ShowCase</NavbarLink>
                   <NavbarLink href="blog">Blog</NavbarLink>
                   <NavbarLink href="contato">Contato</NavbarLink>
             
