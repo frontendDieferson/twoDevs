@@ -78,7 +78,7 @@ class contato extends Component {
               </div>
             </div>
           </center>
-          <center><button type='submit' class='btn btn-primary'>Enviar</button></center>
+          <center><button type='submit' class='btn btn-warning'>Enviar</button></center>
 
 
         </form>
