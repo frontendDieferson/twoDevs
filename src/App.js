@@ -10,10 +10,10 @@ import React, { Component } from 'react'
 
 import {
   Row,
-  Header,
   Container,
-  Image,
   Link,
+  Image,
+  Header,
   Column,
   Navbar,
   NavbarCollapse,
@@ -33,11 +33,10 @@ class App extends Component {
   render () {
     return (
       <Container>
-
         <Row className='mt-8'>
 
           <Column>
-            <Navbar expand='navbar navbar-expand-lg navbar-light' style='background-color: #246B73;'>
+            <Navbar expand='navbar navbar-expand-md navbar-light' style='background-color: #246B73;'>
               <Container>
                 <NavbarCollapse>
                   <NavbarBrand href='/'>

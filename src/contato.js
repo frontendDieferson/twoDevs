@@ -52,45 +52,24 @@ class contato extends Component {
             </Navbar>
           </Column>
         </Row>
-        <form>
-          <div className='form-row mt-5'>
-            <div className='form-group col-md-6'>
-              <label for='inputEmail4'>Email</label>
-              <input type='email' class='form-control' id='inputEmail4' placeholder='Email' />
-            </div>
-            <div className='form-group col-md-6'>
-              <label for='inputPassword4'>Nome Completo</label>
-              <input type='text' class='form-control' id='inputPassword4' placeholder='Nome Completo' />
-            </div>
+        <div className='cover-container'>
+          <img src='./images/contato.png' />
+        </div>
+        <form className='contato'>
+          <div className='form-group col-md-12'>
+            <label for='inputEmail4'>Email</label>
+            <input type='email' class='form-control' id='inputEmail4' placeholder='Email' />
           </div>
-          <div className='form-group'>
-            <label for='inputAddress'>Endereço</label>
-            <input type='text' class='form-control' id='inputAddress' placeholder='Rua ou Avenida, nº 0' />
+          <div className='form-group col-md-12'>
+            <label for='exampleFormControlTextarea1'>Nome Completo</label>
+            <input type='text' class='form-control' id='exampleFormControlTextarea1' placeholder='Nome Completo' />
           </div>
-
-          <div classname='form-row'>
-            <div class='form-group col-md-6'>
-              <label for='inputCity'>Cidade</label>
-              <input type='text' class='form-control' id='inputCity' />
-            </div>
-            <div className='form-group col-md-4'>
-              <label for='inputEstado'>Estado</label>
-              <select id='inputEstado' class='form-control'>
-                <option selected>Escolher...</option>
-                <option>...</option>
-              </select>
-            </div>
-            <div classname='form-group col-md-2'>
-              <label for='inputCEP'>CEP</label>
-              <input type='text' class='form-control' id='inputCEP' />
-            </div>
-          </div>
-          <div className='form-group'>
+          <div className='form-group col-md-12'>
             <label for='exampleFormControlTextarea1'>Sua Mensagem:</label>
             <textarea class='form-control' id='exampleFormControlTextarea1' rows='3' />
           </div>
           <center>
-            <div className='form-group'>
+            <div className='form-group col-md-12'>
               <div class='form-check'>
                 <input class='form-check-input' type='checkbox' id='gridCheck' />
                 <label class='form-check-label' for='gridCheck'>
@@ -100,24 +79,29 @@ class contato extends Component {
             </div>
           </center>
           <center><button type='submit' class='btn btn-primary'>Enviar</button></center>
+
+
         </form>
-        <Footer>
+        <Footer className='fixed-bottom'>
           <Row>
             <Column className='col-sm-12 col-md'>
               <Copyright showAllRightText={false} text='Startup twoDevs' />
               <a href='https://www.instagram.com/twodevsstartup/'><img
                 alt='Instagram twoDevs Startup'
-                src='/images/instagram.png' width='30' height='30' />
+                src='/images/instagram.png' width='30' height='30'
+              />
               </a>
 
               <a href='https://www.facebook.com/twodevsstartup/'><img
                 alt='Facebook twoDevs Startup'
-                src='/images/facebook.png' width='30' height='30' />
+                src='/images/facebook.png' width='30' height='30'
+              />
               </a>
 
               <a href='https://www.twitter.com/twodevsstartup/'><img
                 alt='Twitter twoDevs Startup'
-                src='/images/twitter.png' width='30' height='30' />
+                src='/images/twitter.png' width='30' height='30'
+              />
               </a>
 
             </Column>

@@ -8,6 +8,7 @@ import contato from './contato'
 import welcome from './welcome'
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
 
+
 ReactDOM.render(
   <BrowserRouter>
     <Switch>

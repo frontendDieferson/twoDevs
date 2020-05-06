@@ -145,6 +145,16 @@ body {
     .main-logo {
         width: 100px;
     }
+    .cover-container img{
+        display: none;
+    }
+    .contato {
+        align-items: center;
+    }
+    .container {
+        width:450px;
+    }
+   
 }
 
 @media (max-width: 767px) {
@@ -187,10 +197,7 @@ body {
     margin-top: -300px;
 }
 
-.Footer {
-    background-color: #5C257F;
-    margin-top: 20px;
-}
+
 
 .welcome{
     margin-top: 0px;
@@ -225,5 +232,42 @@ body {
 
 .welcomeFooter{
     
+    margin-top: 200px;
+}
+
+.contato {
+    width: 400px;
+    height: 400px;
+    margin-top: 140px;
+    border: 5px #5C257F;
+    border-radius: 5px;
+    background-color: #5C257F;
+    color: azure;
+    
+    
+}
+.contato .label {
+    color: #fff;
+}
+.cover-container {
+    float: right;
+    width: 700px;
+}
+.cover-container img {
+    width: 650px;
+    height: 550px;
+    float: right;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+.Footer {
+    background-color: #5C257F;
     margin-top: 200px;
 }
